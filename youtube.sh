@@ -14,7 +14,7 @@ fi
 FILE=~/upload/yt-dlp
 if [ ! -e $FILE ]; then
   echo "File not exists."
-  wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp
+  wget -N https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp
 fi
 chmod u+x yt-dlp # 실행 권한 문제
 ./yt-dlp -f 140 $1 -o $2
