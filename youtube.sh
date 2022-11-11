@@ -7,11 +7,11 @@ cd ~
 mkdir upload
 cd upload
 
-if [ ! -d "~/upload" ]; then
+if [ ! -d ~/upload ]; then
   mkdir ~/upload
 fi
 
-FILE="~/upload/yt-dlp"
+FILE=~/upload/yt-dlp
 if [ ! -e $FILE ]; then
   echo "File not exists."
   wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp
