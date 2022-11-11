@@ -3,10 +3,10 @@
 # $1: 유튜브 URL
 # $2: 파일이름 + .mp4
 
-cd /var/app/current/
-# cd ~
-# mkdir upload
-# cd upload
+# cd /var/app/current/
+cd ~
+mkdir upload
+cd upload
 # FILE="~home/upload/yt-dlp"
 # if [ ! -e $FILE ];then
 #   echo "File not exists."
